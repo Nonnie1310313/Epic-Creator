@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Brutal;
+  font-weight: 400;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/4555758a9a1a19e87a66eceaf00b1b23.woff2)
+      format("woff2"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/c36d188d8cef7e9bc736d4cdebac8d9b.woff)
+      format("woff"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/75e941272c93633c1c6dc50f797c2f87.ttf)
+      format("truetype"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/434233315fca6a10ec6d970432056f2d.eot#iefix)
+      format("embedded-opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 500;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/5f601a4caa6f187bd35621b49fc8e2bc.woff2)
+      format("woff2"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/6a0ccd2aaeeedfaf1f99e3c667afc67e.woff)
+      format("woff"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/48f8bf6141630ae67d43f6e686f0c3d0.ttf)
+      format("truetype"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/de5b0af6dd1075c729a73b39f75d78a6.eot#iefix)
+      format("embedded-opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 700;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/0dfc6422538b3d86ce582109b873e084.woff2)
+      format("woff2"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/7d12e2ec7b3852a53f4efa5095dc2a8f.woff)
+      format("woff"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/52af64e38ed5ff46b96ac84ec56c39c2.ttf)
+      format("truetype"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/aad2f37cf7670495b1ad0ec403cca93f.eot#iefix)
+      format("embedded-opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 100;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/181b9e0f2c4ac4868b5bcc267f1809df.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 200;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/b4406e03e0a06ae222396b88e17bbc7c.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 300;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/25f837060e6aa3e4b51090d00b45c56e.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 400;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/aff3816458db70ab4f77058c0e1c95e1.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 500;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/d652a6b211872ef76f7c5b8f9fe2002b.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 700;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/ceca52c302f892911415f32092316e3a.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 800;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/2ccd14bf31a53b86176fe55bb906ab0d.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Brutal;
+  font-weight: 900;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/4d293e5df11b7ab827464fa4a0bde1ed.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: OpenSans;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/83efe33660ab6a7fe428c8078d47485f.eot);
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/83efe33660ab6a7fe428c8078d47485f.eot#iefix)
+      format("embedded-opentype"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/55b8ce1f9a32bb0f83f14813eac0b7ca.woff)
+      format("woff"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/c7571df954bd2b7ffcd78628a24ff2ed.ttf)
+      format("truetype"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/bdcfdd6f83b4fd26b9b75e61dd01c109.svg#open_sansregular)
+      format("svg");
+}
+
+@font-face {
+  font-family: eg-footer-icomoon;
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/4fa9a4277a63ffa8e703749da4b8ecca.eot);
+  src: url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/4fa9a4277a63ffa8e703749da4b8ecca.eot#iefix)
+      format("embedded-opentype"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/e6c685200f5521b6574f7099061e59e1.ttf)
+      format("truetype"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/e0aa9ff38c646873189b25adf2216e24.woff)
+      format("woff"),
+    url(https://static-assets-prod.epicgames.com/affiliate/static/webpack/ee389eb66dfe29b70153654a431092a2.svg#icomoon)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+20bd, U+e0??, U+e9??, U+ea??, U+f???;
+}

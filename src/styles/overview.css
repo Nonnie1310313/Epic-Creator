@@ -1,0 +1,358 @@
+.Overview_Hero_Container {
+  width: 100%;
+  background: url(https://media.techtribune.net/uploads/2022/05/coachella-fortnite-1649957616626.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: var(--box-rouning-large);
+}
+
+.Overview_Hero_Wrapper {
+  background: #000000be;
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  padding: 0.2rem 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease-in-out;
+}
+
+.Overview_Hero_Text_Container {
+  text-align: center;
+  max-width: 100%;
+  user-select: none;
+}
+
+.Overview_Hero_Text_Container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+
+.Overview_Hero_Text_Container p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  margin-bottom: 60px;
+}
+
+.Overview_Hero_Button_Container {
+  margin: 5.2em 0em 0em 0em;
+}
+
+.Overview_Hero_Text_Container {
+  padding: 0em 1em;
+}
+
+.Global_Buttons_Wrapper {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  gap: 10px;
+}
+
+a {
+  transition: all 20ms ease-in-out;
+}
+
+.Global_Buttons button {
+  outline: none;
+  border: none;
+  border-radius: var(--box-rouning-small);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.25;
+  font-weight: 700;
+  padding: 0px 40px;
+  min-height: 48px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.Overview_Faq_Section_Container_Text h1,
+.Overview_Card_Text h4 {
+  font-weight: 600;
+}
+
+.Global_Button_Primary {
+  background-color: #0074e4;
+  color: #ffffff;
+}
+
+.Global_Button_Primary:hover {
+  background-color: rgb(40, 138, 232);
+  color: #ffffff;
+}
+
+.Global_Button_Primary:disabled {
+  background-color: #1b1b1b;
+  color: #ffffff60;
+  cursor: default;
+}
+
+.Global_Button_Secondary {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.Global_Button_Secondary:hover {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.Global_Button_Secondary:disabled {
+  background-color: #1b1b1b50;
+  color: #ffffff60;
+  cursor: default;
+}
+
+.Overview_Cards_Container {
+  margin: 3em 0em 2em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Overview_Cards_Wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .Overview_Faq_Container {
+    margin: 4em auto 0em auto !important;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .Overview_Hero_Wrapper {
+    padding: 2rem 2rem;
+  }
+
+  .Global_Buttons_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .Overview_Cards_Wrapper {
+    flex-wrap: wrap;
+    display: inline-flex;
+    flex: 1 1 160px;
+    column-count: 3;
+  }
+
+  .Overview_Card_Container {
+    width: 300px !important;
+    height: 300px !important;
+    flex-grow: 1;
+  }
+
+  .Overview_Card_Container {
+    height: auto !important;
+  }
+
+  .Overview_Hero_Text_Container h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .Overview_Hero_Text_Container h2 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  .Global_Buttons button {
+    min-height: 57px !important;
+  }
+
+  .Overview_Hero_Text_Container {
+    max-width: 80%;
+  }
+
+  .Overview_Faq_Section_Container_Text_P_Wrapper ul {
+    padding: 0em 4em !important;
+  }
+
+  .Overview_Faq_Section_Container_Text_P_Wrapper {
+    margin: 2em auto;
+    max-width: 100%;
+  }
+
+  .Overview_Faq_Section_Container_Text_P_Wrapper {
+    max-width: 75%;
+    margin: 0em auto;
+  }
+
+  .Overview_Faq_Title h3 {
+    margin: 0.75em 0em;
+  }
+
+  .Overview_Hero_Text_Container p {
+    font-size: 22px;
+  }
+
+  .Overview_Hero_Wrapper {
+    padding: 2rem;
+  }
+}
+
+.Overview_Card_Container {
+  border-radius: var(--box-rouning-medium);
+  padding: 30px;
+  border: var(--border-size-small) solid var(--border-box-color-white);
+  width: 100%;
+  height: 100%;
+  transition: all 150ms ease-in-out;
+}
+
+.Overview_Card_Wrapper {
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+.Overview_Card_Text {
+  text-align: center;
+}
+
+.Overview_Card_Text a {
+  color: #339bff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.Overview_Card_Text a:hover {
+  color: #ffffff;
+}
+
+.Overview_Card_Text h4 {
+  margin: 1em 0em;
+  line-height: 25px;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+.Overview_Card_Text p,
+.Overview_Hero_Text_Container p,
+.Overview_Faq_Section_Container_Text_P_Wrapper p,
+.Overview_Faq_Section_Container_Text_P_Wrapper ul li,
+.Overview_Faq_Title h3 {
+  color: #ffffff90;
+}
+
+.Overview_Card_Text p {
+  letter-spacing: -0.01em;
+}
+
+.Overview_Faq_Container {
+  margin: 4em 0em 0em 0em;
+}
+
+.Overview_Faq_Title h3 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.Overview_Faq_Blocks {
+  margin: 1em 0em 1em 0em;
+}
+
+.Overview_Faq_Section_Container {
+  border-top: var(--border-size-small) solid var(--border-box-color-white);
+  padding: 2.4em 0em;
+}
+
+.Overview_Faq_Wrapper {
+  padding: 0em 0.6em;
+}
+
+.Overview_Faq_Section_Container_Text,
+.Overview_Faq_Title {
+  text-align: left;
+  position: relative;
+}
+
+@media screen and (min-width: 460px) {
+  .Overview_Faq_Section_Container_Text h1 {
+    font-size: 19px !important;
+    line-height: 22px !important;
+  }
+
+  .Overview_Faq_Section_Container {
+    padding: 3em 0em;
+  }
+
+  .Overview_Hero_Wrapper {
+    min-height: 600px;
+  }
+}
+
+.Overview_Faq_Section_Container_Text h1 {
+  text-transform: uppercase;
+  line-height: 26px;
+  font-size: 22px;
+}
+
+.Overview_Faq_Section_Container_Text_P_Wrapper {
+  position: relative;
+  margin: 3em auto;
+  width: 100%;
+}
+
+.Overview_Faq_Section_Container_Text_P_Wrapper p,
+.Overview_Card_Text p {
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.Overview_Faq_Section_Container_Text_P_Wrapper p {
+  margin: 1.5em 0;
+}
+
+.Overview_Faq_Section_Container_Text_P_Wrapper p a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.Overview_Faq_Section_Container_Text_P_Wrapper ul {
+  padding: 0em 2em;
+}
+
+.Overview_Faq_Section_Container_Text_P_Wrapper ul li p {
+  margin: 0em 0em 0em 0em;
+}
+
+.Overview_Text_Center {
+  text-align: center !important;
+}
+
+.Overview_NoBorderTop {
+  border-top: 0em !important;
+}
+
+.Overview_NoUppercase {
+  text-transform: none !important;
+}
+
+.Overview_SmallMarginFAQ {
+  margin: 1em 0em !important;
+}
+
+.Overview_WFull {
+  max-width: 100%;
+}
